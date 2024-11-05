@@ -1,0 +1,48 @@
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #cef2d8;
+    color: #24382a;
+}
+
+.container {
+    width: 50%;
+    margin: 2rem auto; 
+}
+
+.kama {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(10, auto);
+    grid-gap: 15px;
+}
+
+.galerii__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uks {
+   grid-column: 1 / span 4;
+   grid-row: 1 / span 5;
+}
+
+.kaks {
+   grid-column: 5 / span 4;
+   grid-row: 1 / span 5;
+}
+
+.kolm {
+    grid-column: 9 / span 4;
+    grid-row: 1 / span 5;
+ }
+
+
+
