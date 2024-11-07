@@ -1,0 +1,34 @@
+body {
+    background-color: #cef2d8;
+    color: #24382a;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.tulp_t {
+    flex: 70;
+    border: dashed;
+}
+
+.tulp_pilt {
+    flex: 30;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 8px 8px 8px 8px;
+}
