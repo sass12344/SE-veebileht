@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Keskmine ristik</title>
     <link rel="stylesheet" type="text/css" href="taim.css">
-    <!--<script src="scripts.js"></script>-->
+    <script src="taim.js"></script>
 </head>
 
 <body>
@@ -26,6 +26,8 @@
             <p>
                 Sageli leidub tee ääres. Et teha kindlaks, et tegemist on just keskmise ristikuga, tuleb vaadata lehti. Keskmise ristiku lehel kindlasti puudub valge kolmnurk. Kui lehel on kolmnurk, siis on tõenäoliselt tegemist aasristikuga.
             </p>
+            <button type="button" onclick="oitsemisAeg('2000-06-01', '2000-09-01')">Kas õitseb praegu?</button>
+            <p id="oitsemisaeg"></p>
         </div>
         <div class="tulp_pilt">
             <img src="taimed/kristik.png" alt="Keskmine ristik">
