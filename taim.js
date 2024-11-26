@@ -1,3 +1,5 @@
+// Autor: Sander Sarapuu
+
 function oitsemisAeg(oit_kuup, l_kuup) {
     let kuup = new Date()
 
@@ -13,7 +15,7 @@ function oitsemisAeg(oit_kuup, l_kuup) {
     }
 
     oit_kuup.setYear(kuup.getFullYear())
-    l_kuup.setYear(kuup.get)
+    l_kuup.setYear(kuup.getFullYear())
 
     if (kuup.getTime() <= l_kuup.getTime() && kuup.getTime() >= oit_kuup.getTime()) {
         document.getElementById("oitsemisaeg").innerHTML = kuupStringiks(kuup) + ": õitseb"
