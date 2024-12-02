@@ -6,6 +6,8 @@ function oitsemisAeg(oit_kuup, l_kuup) {
     oit_kuup = new Date(oit_kuup)
     l_kuup = new Date(l_kuup)
 
+    // Muuda sisendi aastat, et saaks praeguse unix time'iga võrrelda
+    // Arvestab ka sellega, kui taime õitsemisaeg on aastavahetuse peal
     if (oit_kuup.getMonth() > l_kuup.getMonth()) {
         oit_kuup.setYear(kuup.getFullYear() - 1)
         l_kuup.setYear(kuup.getFullYear())
