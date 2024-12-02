@@ -7,7 +7,7 @@ body {
     margin: 2rem auto; 
 }
 
-.kama {
+.tabel {
     display: grid;
     grid-template-columns: repeat(12, auto);
     grid-template-rows: repeat(10, auto);
@@ -33,6 +33,11 @@ body {
 .kolm {
     grid-column: 9 / span 4;
     grid-row: 1 / span 5;
+ }
+
+ .neli {
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 5;
  }
 
 .header {
